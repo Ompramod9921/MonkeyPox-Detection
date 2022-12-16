@@ -1,0 +1,342 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Get lost",
+        "Till next time",
+        "bbye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How can you be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I'm here to address Monkeypox related queries"
+      ]
+    },
+    {
+      "tag": "Identity",
+      "patterns": [
+        "Who are you",
+        "what are you)",
+	  "What's your name?"
+      ],
+      "responses": [
+        "I am NORA, a Deep-Learning chatbot"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+        "Who made you",
+        "who designed you",
+        "who programmed you"
+      ],
+      "responses": [
+        "I was made by team NORA"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old are you",
+        "when were you made?",
+        "what is your age"
+      ],
+      "responses": [
+        "I was made in 2022, if that's what you are asking!"
+      ]
+    },
+    {
+      "tag": "definition",
+      "patterns": [
+        "what is monkeypox?",
+        "what is MPX?"
+      ],
+      "responses": [
+        "Monkeypox is an illness caused by the monkeypox virus. It is a viral zoonotic infection, meaning that it can spread from animals to humans. It can also spread from humans to other humans and from the environment to humans.",
+        "Monkeypox is a rare disease caused by infection with the monkeypox virus. Monkeypox virus is part of the same family of viruses as variola virus, the virus that causes smallpox. Monkeypox symptoms are similar to smallpox symptoms, but milder, and monkeypox is rarely fatal."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of monkeypox?",
+        "tell me the symptoms of MPX"
+      ],
+      "responses": [
+        "Common symptoms of monkeypox include fever, headaches, muscle pain and back ache, low energy, swollen lymph nodes, and rash with blisters on face, hands, feet, body, eyes, mouth, or genitals.",
+        "Monkeypox can cause a range of signs and symptoms. While some people have less severe symptoms, others may develop more serious illness and need care in a health facility. Those typically at higher risk include people who are pregnant, children and persons that are immunocompromised. The most common symptoms of monkeypox identified during the 2022 outbreak include fever, headache, muscle aches, back pain, low energy and swollen lymph nodes, followed or accompanied by the development of a rash which may last for two to three weeks. The rash can affect the face, palms of the hands, soles of the feet, groin, genital and/or anal regions. It may also be found in the mouth, throat, anus or vagina, or on the eyes. The number of sores can range from one to several thousand. Sores on the skin begin flat, then fill with liquid before they crust over, dry up and fall off, with a fresh layer of skin forming underneath. There are ongoing studies to keep track of and better understand symptoms during this new outbreak, including what parts of the body can be affected and how long symptoms may last. Anyone who has symptoms that could be monkeypox or who has been in contact with someone who has monkeypox should call or visit a health care provider and seek their advice. Symptoms usually go away on their own or with supportive care, such as medication for pain or fever. People remain infectious until all of the sores have crusted over, the scabs have fallen off and a new layer of skin has formed underneath."
+      ]
+    },
+    {
+      "tag": "spread",
+      "patterns": [
+        "How does monkeypox spread from person to person?",
+        "how is monkeypox transmitted?"
+      ],
+      "responses": [
+        "Monkeypox spreads from person to person through close physical contact with someone who has a monkeypox rash, including through face-to-face, skin-to-skin, mouth-to-mouth or mouth-to-skin contact. This may include direct contact with the rash, or through hugging, kissing, or sexual contact. The virus can also spread during pregnancy to the fetus, during or after birth through skin-to-skin contact, or from a parent with monkeypox to an infant or child during close contact.",
+        "Monkeypox can spread from person to person through direct contact with the infectious rash, scabs, or body fluids. It also can be spread by respiratory secretions during prolonged, face-to-face contact, or during intimate physical contact, such as kissing, cuddling, or sex. A person with monkeypox can spread it to others from the time symptoms start until the rash has fully healed and a fresh layer of skin has formed. Some people have been found to have infection but no symptoms. To date, however, there is no evidence that monkeypox spreads from people with no symptoms."
+      ]
+    },
+    {
+      "tag": "sex",
+      "patterns": [
+        "Is monkeypox a sexually transmitted infection?",
+        "Is monkeypox a STI?",
+        "Can I get monkeypox from having sex?"
+      ],
+      "responses": [
+        "Monkeypox is not a sexually transmitted infection. Monkeypox can spread through close contact of any kind such as face-to-face, skin-to-skin, mouth-to-mouth, mouth-to-skin, or sexual contact. Anyone with direct contact with a monkeypox rash, even without sexual contact, may be infected with it.",
+        "you can get monkeypox from having sex. Although it is not considered a sexually transmitted infection, anyone can get monkeypox from close physical contact with an infected person, which includes sex, as well as kissing, cuddling or talking closely."
+      ]
+    },
+    {
+      "tag": "deadly",
+      "patterns": [
+        "is monkeypox deadly?",
+        "can people die from monkeypox?",
+        "Is monkeypox dangerous?"
+      ],
+      "responses": [
+        "Infections with the type of monkeypox virus identified in this outbreak—the Clade IIb —are rarely fatal. Over 99% of people who get this form of the disease are likely to survive. However, people with weakened immune systems, children under 8 years of age, people with a history of eczema, and people who are pregnant or breastfeeding may be more likely to get seriously ill or die.The Clade I type of monkeypox virus has a fatality rate around 10%.",
+        "In most cases, the symptoms of monkeypox go away on their own within a few weeks. However, in some people, an infection can lead to medical complications and even death. Based on what we know from previous monkeypox outbreaks, new-born babies, children and people with underlying immune deficiencies may be at higher risk of more serious symptoms and death from monkeypox. Complications from monkeypox include secondary skin infections, pneumonia, confusion, and eye problems. More recent complications include proctitis (sores and swelling inside the rectum that cause pain) and pain or difficulty when urinating. In the past, between 1% to 10% of people with monkeypox have died. It is important to note that death rates in different settings may differ due to a number of factors, such as access to health care. These figures may be an overestimate because surveillance for monkeypox has generally been limited in the past."
+      ]
+    },
+    {
+      "tag": "postsymptoms",
+      "patterns": [
+        "What should i do if i have symptoms?",
+        "What should I do if I think I may have monkeypox?"
+      ],
+      "responses": [
+        "See a healthcare provider if you notice a new or unexplained rash or other monkeypox symptoms. Remind the healthcare provider that monkeypox is present in the United States. Avoid close contact (including intimate physical contact) with others until you see a healthcare provider. Avoid close contact with pets or other animals until you see a healthcare provider. If you’re waiting for test results, follow the same precautions. If your test result is positive, stay isolated and observe other prevention practices until your rash has healed, all scabs have fallen off, and a fresh layer of intact skin has formed. Remain isolated if you have a fever, sore throat, nasal congestion, or cough. Only go out to see a healthcare provider or for an emergency. Avoid public transportation. If you must leave isolation, cover the rash and wear a well-fitting mask."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How can monkeypox be prevented?",
+        "What can be done to prevent monkeypox?",
+        "What can I do to avoid getting monkeypox?"
+      ],
+      "responses": [
+        "Avoid close, skin-to-skin contact with people who have a rash that looks like monkeypox. Avoid contact with objects and materials that a person with monkeypox has used. Wash your hands often with soap and water or use an alcohol-based hand sanitizer, especially before eating or touching your face and after you use the bathroom."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "what treatments are available for monkeypox?",
+        "is there a vaccine to prevent monkeypox?"
+      ],
+      "responses": [
+        "There are no treatments specifically for monkeypox virus infections. However, because of genetic similarities in the viruses, antiviral drugs used to treat smallpox may be used to treat monkeypox infections."
+      ]
+    },
+    {
+      "tag": "animal",
+      "patterns": [
+        "can monkeypox spread from aniamls to humans?",
+        "can human get MPX from animals?"
+      ],
+      "responses": [
+        "Monkeypox can spread to people when they come into physical contact with an infected animal such as a non-human primate, terrestrial rodent, antelope, gazelle, or tree squirrel – for example through bites or scratches, or during activities such as hunting, skinning, trapping, cooking, playing with carcasses. The virus can also be caught through eating infected animals if they are not cooked thoroughly. The risk of catching monkeypox from animals can be reduced by avoiding unprotected contact with wild animals, especially those that are sick or dead (including their meat and blood). In countries where animals carry monkeypox, any foods containing animal parts or meat should be cooked thoroughly before eating."
+      ]
+    },
+    {
+      "tag": "protect",
+      "patterns": [
+        "how can i protect myself from monkeypox?",
+        "how can we protect ourself from MPX?"
+      ],
+      "responses": [
+        "In countries where animals carry monkeypox, protect yourself by avoiding unprotected contact with wild animals, especially those that are sick or dead (including their meat and blood). Any foods containing animal parts or meat should be cooked thoroughly before eating. Reduce your risk of catching monkeypox from other people by limiting close contact with people who have suspected or confirmed monkeypox. Keep yourself informed about monkeypox in your area or social group and have open conversations with those you come into close contact (especially sexual contact) with about any symptoms you or they may have. Clean your hands frequently with soap and water or an alcohol-based hand rub. Frequently clean and disinfect commonly touched surfaces in the environments that could have been contaminated with the virus from someone who is infectious.  Common household disinfectants or bleach products are enough to kill the monkeypox virus. If you think you might have monkeypox, you can act to protect others by seeking medical advice and isolating from others until you have been evaluated and tested. If you have probable or confirmed monkeypox, you should isolate from others until all of your sores have crusted over, the scabs have fallen off and a new layer of skin has formed underneath, and all the sores inside your body have also healed. This will stop you from passing on the virus to others. Get advice from your health worker on whether you should isolate at home or in a health facility. Until more is understood about transmission through sexual fluids, use condoms as a precaution whilst having sexual contact for 12 weeks after you have recovered."
+      ]
+    },
+    {
+      "tag": "vaccine",
+      "patterns": [
+        "is there a vaccine against monkeypox?",
+        "What vaccines are available for monkeypox?"
+      ],
+      "responses": [
+        "Some countries are recommending vaccination for persons at risk. Many years of research have led to development of newer and safer vaccines for an eradicated disease called smallpox, which may also be useful for monkeypox. Two of these (MVA-BN and LC16) have been approved for prevention of monkeypox. Only people who are at risk (for example someone who has been a close contact of someone who has monkeypox) should be considered for vaccination. Mass vaccination is not recommended at this time.",
+        "Yes. There are three vaccines against monkeypox. Although supplies are currently limited, get vaccinated if it is offered to you as they provide a valuable level of protection against the disease. After you have been vaccinated, continue to take care to avoid catching and spreading monkeypox; this is because it takes several weeks to develop immunity after being vaccinated, and because we don’t yet know to what extent the vaccines protect you and if they stop you from infecting others as efficacy data in this outbreak setting is needed."
+      ]
+    },
+    {
+      "tag": "lgbt",
+      "patterns": [
+        "can men who have sex with men at higher risk of catching monkeypox?",
+        "does monkeypox spread through gay people?",
+        "do only homosexual or bisexual people get monkeypox?"
+      ],
+      "responses": [
+        "The risk of monkeypox is not limited to people who are sexually active or men who have sex with men. Anyone who has close contact with someone who has symptoms is at risk. However, most of the cases that have been reported in the current outbreak have been identified among men who have sex with men.  Given that the virus is currently moving from person to person in these social networks, men who have sex with men may currently be at higher risk of being exposed if they have sex or other form of close contact with someone who is infectious. People who have multiple or new sexual partners are currently most at risk."
+      ]
+    },
+    {
+      "tag": "past",
+      "patterns": [
+        "i have had monkeypox in past. can i catch it again?",
+        "Can I get MPX over and over again?"
+      ],
+      "responses": [
+        "WHO says, Our understanding of how long immunity lasts following monkeypox infection is currently limited. We do not yet have a clear understanding whether a previous monkeypox infection gives you immunity against future infections and if so, for how long. There have been some cases of second infections reported. Even if you have had monkeypox in the past, you should be doing everything you can to avoid getting re-infected. If you have had monkeypox in the past and someone in your household has it now, you can protect others by being the designated caregiver, as you are more likely to have some immunity than others are. However, you should still take all precautions to avoid becoming infected."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "what are risks of monkeypox during pregnancy?",
+        "What’s the risk to pregnant women"
+      ],
+      "responses": [
+        "More research is needed to better understand the risks of monkeypox during pregnancy, and how the virus can be passed to the fetus in the womb or to the newborn during or after birth or while breastfeeding. Available information suggests that contracting monkeypox during pregnancy can be dangerous for the fetus. If you are pregnant, avoid close contact with anyone who has monkeypox. Anyone who has close contact with someone who is infectious can get monkeypox, regardless of who they are. If you think you have been exposed to or are showing symptoms that could be monkeypox, contact your healthcare provider. They will help you get tested and access the care you need."
+      ]
+    },
+    {
+      "tag": "child",
+      "patterns": [
+        "can child get monkeypox?",
+        "Can kids get this infection?"
+      ],
+      "responses": [
+        "Children can catch monkeypox if they have close contact with someone who has symptoms.  Data from previously affected countries show that children are typically more prone to severe disease than adolescents and adults.  There have been a small number of children with monkeypox in the current outbreak. Some children have been exposed to the virus at home from parents, caregivers, or other family members through close contact. Other children are adolescents who have engaged in sexual activity with someone with monkeypox."
+      ]
+    },
+    {
+      "tag": "new",
+      "patterns": [
+        "is monkeypox a new disease?",
+        "MPX is new disease?"
+      ],
+      "responses": [
+        "No, MPX is not a new disease. MPX was first discovered in 1958 in monkeys, hence the name 'MPX'. The first human case of MPX was recorded in 1970 in the Democratic Republic of Congo. MPX is endemic (regularly found) in west and central African countries."
+      ]
+    },
+    {
+      "tag": "covid",
+      "patterns": [
+        "is MPX related to covid-19?",
+        "is monkeypox related to COVID-19?"
+      ],
+      "responses": [
+        "No, MPX is a completely different disease, is not related to COVID-19, and spreads differently. People are generally contagious when they have a rash or other symptoms, and MPX spread takes place through prolonged direct, close contact. This is different from COVID-19, which spreads easily through the air."
+      ]
+    },
+    {
+      "tag": "sign",
+      "patterns": [
+        "what are signs of MonkeyPox?",
+        "tell me signs of MPX disease"
+      ],
+      "responses": [
+        "​MPX often starts with symptoms like those of the flu, with fever, low energy, swollen lymph nodes, and general body aches. Within 1 to 3 days (sometimes longer) after the appearance of fever, the person can develop a rash or sores. The sores will go through several stages, including scabs, before healing. They can look like pimples or blisters and may be painful and itchy. The rash or sores may be located on or near the genitals (penis, testicles, labia, and vagina) or anus (butt) but could also be on other areas like the hands, feet, chest, and face. They may also be limited to one part of the body."
+      ]
+    },
+    {
+      "tag": "more",
+      "patterns": [
+        "where can i find more informaton?",
+        "Where can I get additional information on monkeypox?"
+      ],
+      "responses": [
+        "visit WHO's official page for more information on Monkeypox or Contact your health care provider"
+      ]
+    },
+    {
+      "tag": "cause",
+      "patterns": [
+        "What causes monkeypox?",
+        "tell causes of MPX"
+      ],
+      "responses": [
+        "Monkeypox is a rare infectious disease that is caused by the monkeypox virus. Monkeypox is from the same family of viruses that causes smallpox."
+      ]
+    },
+    {
+      "tag": "duration",
+      "patterns": [
+        "How long does monkeypox last?",
+        "How long can infected person remain infectious?"
+      ],
+      "responses": [
+        "The rash and flu-like symptoms caused by monkeypox typically last 2 to 4 weeks.",
+        "We are still learning about how long people with monkeypox are infectious for, but generally they are considered infectious until all of their lesions have crusted over, the scabs have fallen off and a new layer of skin has formed underneath."
+      ]
+    },
+    {
+      "tag": "recovery",
+      "patterns": [
+        "How long is the recovery time for monkeypox?",
+        "what is recovery time for MPX?"
+      ],
+      "responses": [
+        "The recovery time from monkeypox is typically 2 to 4 weeks"
+      ]
+    },
+    {
+      "tag": "pet",
+      "patterns": [
+        "Can monkeypox make my pet sick?",
+        "could my pet monkeypox?",
+        "Can pets be infected?"
+      ],
+      "responses": [
+        "Monkeypox can spread between people and animals. However, the current risk to pets is believed to be low. People with monkeypox should avoid interacting with animals and find someone to care for their pets while they recover"
+      ]
+    }
+  ]
+}
